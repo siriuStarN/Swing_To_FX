@@ -1,0 +1,50 @@
+Restrictions
+
+1. 선언부의 띄어쓰기 (공백)은 A a = new A(); 가 되어야할것.
+2. final 등의 modifier를 고려하지 않음
+3. JFrame a = new JFrame();
+   a.add(new JDialog().add(new JButton()));
+   위와 같이 중복해서 add하는 경우는 고려하지 않음	
+   
+   
+   JPanel -> Pane
+   JLabel -> Label
+   JList -> ListView
+   JComboBox -> ComboBox
+   JSlider -> Slider
+   JScrollBar -> ScrollBar
+   JLayeredPane -> StackPane
+   JOptionPane -> Alert
+   JTabbedPane -> TabPane
+   JSplitPane -> SplitPane
+   JSeparator -> Separator
+   JRootPane -> RootPane
+   JToolBar -> ToolBar
+   JMenuBar -> MenuBar
+   JTooltip -> Tooltip
+   JPopupMenu -> ContextMenu
+   JFileChooser -> FileChooser
+   JColorChooser -> ColorPicker
+   JTree -> TreeView<>
+   JTable -> TableView
+   JProgressBar -> ProgressBar
+   JSpinner -> Spinner<>
+   JScrollPane -> ScrollPane
+   JInternalFrame -> X
+   JTextComponent -> X
+   JEditorPane -> X
+   JTextField -> TextField
+   JPasswordField -> PasswordField
+   JTextArea -> TextArea
+   JMenuItem -> MenuItem
+   JMenu -> Menu
+   JCheckMenuItem -> CheckMenuItem
+   JRadioButtonMenuItem -> RadioMenuItem
+   JButton -> Button
+   JToggleButton -> ToggleButton
+   JRadioButton -> RadioButton
+   JCheckBox -> CheckBox
+   JDialog -> Dialog(X)
+   JApplet -> X
+   JFrame -> Stage
+   JWindow -> X

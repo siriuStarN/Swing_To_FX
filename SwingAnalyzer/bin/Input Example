@@ -1,0 +1,30 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class TestInput {
+	JFrame frame1 = new JFrame("f1");
+	JFrame frame2 = new JFrame("f2");
+	
+	JPanel panel1 = new JPanel("p1");
+	JPanel panel2 = new JPanel("p2");
+	
+	JButton button1 = new JButton("btn1");
+	JButton button2 = new JButton("btn2");
+	
+	JLabel label1 = new JLabel("label1");
+	
+	public void createFrame() {
+		frame1.add(button1);
+		frame1.add(panel1);
+		
+		frame2.add(button2);
+		frame2.add(panel2);
+		
+		panel1.add(label1);
+	}
+	
+	public static void main(String[] args) {
+		TestInput testInput = new TestInput();
+		testInput.createFrame();
+	}
+}

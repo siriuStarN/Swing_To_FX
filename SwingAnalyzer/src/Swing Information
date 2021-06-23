@@ -1,0 +1,68 @@
+기본적인 Swing 클래스 트리
+
+javax.swing 또는 하위패키지에 존재함
+*은 추상클래스
+
+Swing 컨테이너와 디폴트 배치관리자
+JWindowm, JFrame, JDiolog -> BorderLayout
+JPanel -> FlowLayout
+
+Object
+*Component
+Container
+*JComponent
+*AbstractButton
+JButton
+JMenuItem
+JCheckBoxMenuItem
+JMenu
+JRadioButtonMenuItem
+*JToggleButton
+JCheckBox
+JRadioBuitton
+Box
+Filler
+JColorChooser
+JComboBox
+JDesktopIcon
+JFileChooser
+JInternalFrame
+JLabel
+JLayeredPane
+JDesktopPane
+JList
+JMenuBar
+JOptionPane
+JPanel
+JPopupMenu
+JProgressBar
+JRootPane
+JScrollBar
+JScrollPane
+JSeparator
+JSlider
+JSplitPane
+JTabbedPane
+JTable
+JTableHeader
+*JTextComponent
+JEditorPane
+FrameEditorPane
+JTextPane
+JTextArea
+JTextField
+JPasswordField
+JToolBar
+JToolTip
+JTree
+JViewport
+ScrollableTabViewport
+Panel
+Applet
+JApplet
+Window
+Dialog
+JDialog
+Frame
+JFrame
+JWindow
